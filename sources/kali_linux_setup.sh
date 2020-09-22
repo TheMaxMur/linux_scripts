@@ -25,7 +25,7 @@ systemctl enable ufw
 systemctl enable ssh 
 systemctl enable fail2ban
 
-echo"Start service"
+echo "Start service"
 service ssh start 
 service ufw start 
 service fail2ban start
