@@ -28,4 +28,4 @@ For kali setup
 
 ## Desktop Screenshot
 
-![Screenshot](Desctop.png)
+![Screenshot](Desktop.png)
