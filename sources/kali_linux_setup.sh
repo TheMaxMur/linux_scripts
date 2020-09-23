@@ -35,9 +35,11 @@ service ufw start
 service fail2ban start
 
 echo "Write configs" 
+wget https://psv4.userapi.com/c856324/u340322152/docs/d6/7469007e7590/kJMKLzE.jpg
+mv kJMKLzE.jpg ~/Pictures/
 echo "
 [greeter]
-background = /home/maxmur/Pictures/kJMKLzE.jpg
+background = ~/Pictures/kJMKLzE.jpg
 theme-name = Kali-Dark
 cursor-theme-name = Adwaita
 xft-antialias = true
