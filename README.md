@@ -26,6 +26,3 @@ For kali setup
 #~ ./kali_linux_setup.sh
 ```
 
-## Desktop Screenshot
-
-![Screenshot](Desktop.png)
