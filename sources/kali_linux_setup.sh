@@ -12,7 +12,7 @@ apt update
 apt install ufw ssh git lnav fail2ban spotify-client remmina mat gimp openshot psensor audacity vlc filezilla audacious thunderbird neofetch pass qtpass code torbrowser-launcher 
 wget https://www.vmware.com/go/getplayer-linux
 chmox +x getplayer-linux
-./getplayer-linux
+bash getplayer-linux
 apt full-upgrade	
 
 #settings 
