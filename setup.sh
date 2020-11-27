@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo 'Move scripts file in folders'
-chmod +x sources/.pus.sh
-chmod +x sources/.update.sh
-chmod +x sources/kali_linux_setup.sh
-sudo mv sources/.pus.sh /usr/bin/
-mv sources/.update.sh /usr/bin/.update.sh
-mv sources/kali_linux_setup.sh ~/
+chmod +x .pus.sh
+chmod +x .update.sh
+chmod +x kali_linux_setup.sh
+sudo mv .pus.sh /usr/bin/
+mv .update.sh /usr/bin/.update.sh
+mv kali_linux_setup.sh ~/
 
 echo 'alias upass='/usr/bin/.pus.sh'' >> ~/.bashrc
 sudo echo 'alias upass='/usr/bin/.update.sh'' >> /root/.bashrc
